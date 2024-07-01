@@ -316,7 +316,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone-background.png);
+        background-image: url(images/banner-phone.png);
     }
     .header-text{
         margin-top: 100%;
@@ -330,7 +330,7 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background-color: #ff004f;
+        background-color: #262626;
         position: fixed;
         top: 0;
         right: -200px;

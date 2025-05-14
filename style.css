@@ -14,7 +14,7 @@ body{
 .header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/banner.png);
+    background-image: url(images/banner-dekstop.png);
     background-size: cover;
     background-position: center;
 }
@@ -128,6 +128,10 @@ nav ul li a:hover::after{
 }
 .tab-contents.active-tab{
     display: block;
+}
+.link{
+    text-decoration: none;
+    color: #ff004f;
 }
 
 /* services */
@@ -316,7 +320,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/banner-phone.png);
+        background-image: url(images/banner-mobile.png);
     }
     .header-text{
         margin-top: 100%;
